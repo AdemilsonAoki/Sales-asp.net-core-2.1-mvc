@@ -4,7 +4,6 @@ using System.Linq;
 using System.Threading.Tasks;
 using SalesWebMvc.Models;
 using SalesWebMvc.Data;
-using System.Linq;
 
 namespace SalesWebMvc.Services
 {
