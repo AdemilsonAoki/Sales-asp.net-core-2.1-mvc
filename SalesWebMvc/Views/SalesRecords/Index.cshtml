@@ -1,13 +1,14 @@
 ﻿@{
-    ViewData["Title"] = "Sales Records";
+    ViewData["Title"] = "Busca por data";
 }
 
 <h2>@ViewData["Title"]</h2>
+<hr />
 <div class="row">
     <div class="col-md-6">
         <form class="form-horizontal" asp-action="SimpleSearch">
             <fieldset>
-                <legend>Simple search</legend>
+                <legend>Busca simples</legend>
                 <div class="form-group">
                     <label for="minDate" class="col-lg-2 control-label">Min Date</label>
                     <div class="col-lg-10">
@@ -25,16 +26,18 @@
                         <button type="submit" class="btn btn-primary">Submit</button>
                     </div>
                 </div>
+				<hr />
             </fieldset>
         </form>
     </div>
 </div>
 
+
 <div class="row">
     <div class="col-md-6">
         <form class="form-horizontal" asp-action="GroupSearch">
             <fieldset>
-                <legend>Group search</legend>
+                <legend>Busca por grupo</legend>
                 <div class="form-group">
                     <label for="minDate" class="col-lg-2 control-label">Min Date</label>
                     <div class="col-lg-10">
